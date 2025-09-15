@@ -6,6 +6,21 @@ namespace studioTeam
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, Welcome to Studio 1 BlackJack!");
+
+            Console.WriteLine("Are you over 18 years old? type y or n");
+            char ageInput = Convert.ToChar(Console.ReadLine());
+
+            if (ageInput == 'y')
+            {
+                Console.WriteLine("");
+
+
+            }
+            else
+            {
+                Console.WriteLine("You are too young to play!!!!");
+            }
             int playerCount, dealerCount, currentCard;
             int[] deck = new int[52];
             for (int i = 0; i < deck.Length; i++)
