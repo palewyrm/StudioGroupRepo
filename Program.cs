@@ -56,16 +56,16 @@ namespace studioTeam
                 }
 
                 //test code for shuffle
-                //int[] arr = new int[52];
-                //for (int j = 0; j < arr.Length; j++)
-                //{
-                //    arr[j] = j;
-                //}
-                //shuffle(arr);
-                //for (int j = 0; j < arr.Length; j++)
-                //{
-                //    Console.WriteLine(arr[j]);
-                //}
+                int[] arr = new int[52];
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    arr[j] = j;
+                }
+                shuffle(arr);
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    Console.WriteLine(arr[j]);
+                }
             }
             else
             {
